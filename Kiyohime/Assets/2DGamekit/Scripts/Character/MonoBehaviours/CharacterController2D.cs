@@ -23,7 +23,7 @@ namespace Gamekit2D
         Collider2D[] m_GroundColliders = new Collider2D[3];
         Vector2[] m_RaycastPositions = new Vector2[3];
 
-        public bool IsGrounded { get; protected set; }
+        public bool IsGrounded;
         public bool IsCeilinged { get; protected set; }
         public Vector2 Velocity { get; protected set; }
         public Rigidbody2D Rigidbody2D { get { return m_Rigidbody2D; } }
@@ -196,21 +196,28 @@ namespace Gamekit2D
                     }
                 }
 
-                if (Mathf.Approximately(groundNormal.x, 0f) && Mathf.Approximately(groundNormal.y, 0f))
+                if (GetComponent<WallJump>()._gripped == true)
                 {
-                    IsGrounded = false;
+                    IsGrounded = true;
                 }
                 else
                 {
-                    IsGrounded = relativeVelocity.y <= 0f;
-
-                    if (m_Capsule != null)
+                    if (Mathf.Approximately(groundNormal.x, 0f) && Mathf.Approximately(groundNormal.y, 0f))
                     {
-                        if (m_GroundColliders[1] != null)
+                        IsGrounded = false;
+                    }
+                    else
+                    {
+                        IsGrounded = relativeVelocity.y <= 0f;
+
+                        if (m_Capsule != null)
                         {
-                            float capsuleBottomHeight = m_Rigidbody2D.position.y + m_Capsule.offset.y - m_Capsule.size.y * 0.5f;
-                            float middleHitHeight = m_FoundHits[1].point.y;
-                            IsGrounded &= middleHitHeight < capsuleBottomHeight + groundedRaycastDistance;
+                            if (m_GroundColliders[1] != null)
+                            {
+                                float capsuleBottomHeight = m_Rigidbody2D.position.y + m_Capsule.offset.y - m_Capsule.size.y * 0.5f;
+                                float middleHitHeight = m_FoundHits[1].point.y;
+                                IsGrounded &= middleHitHeight < capsuleBottomHeight + groundedRaycastDistance;
+                            }
                         }
                     }
                 }
