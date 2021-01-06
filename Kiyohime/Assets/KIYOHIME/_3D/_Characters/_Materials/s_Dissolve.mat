@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: s_Burning
-  m_Shader: {fileID: 4800000, guid: c9f00da80c3719e489366aab1ba3d8d1, type: 3}
+  m_Name: s_Dissolve
+  m_Shader: {fileID: 4800000, guid: 102e13b4c4a9efb409e22687014c6f9e, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 6618005f6bafebf40b3d09f498401fba, type: 3}
+        m_Texture: {fileID: 2800000, guid: f9bd85ea2601b824c87556c13e852933, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -39,20 +39,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Distorsion_map:
-        m_Texture: {fileID: 2800000, guid: 77fdad851e93f394c9f8a1b1a63b56f3, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Mask:
-        m_Texture: {fileID: 2800000, guid: e28dc97a9541e3642a48c0e3886688c5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -67,22 +59,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TextureSample4:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Burn: 0.284
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Distorsion_amount: 1
+    - _Dissolve_amount: 0.448
     - _DstBlend: 0
-    - _Float0: 2
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -96,12 +82,8 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
-    - _dissolve_amount: 0.66
-    - _heat_wave: 0.01
-    - _scrol_speed: 0.161
-    - _wiggle_amount: 0.001
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _hot: {r: 1, g: 0.9333204, b: 0, a: 0}
-    - _warm: {r: 1, g: 0.5426355, b: 0, a: 0}
+    - _Tint: {r: 0.21226418, g: 1, b: 1, a: 1}
+    - _noise_scale: {r: 10, g: 10, b: 0, a: 0}
