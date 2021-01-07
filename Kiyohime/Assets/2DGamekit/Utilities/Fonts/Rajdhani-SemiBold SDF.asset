@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hashCode: -1730533160
   material: {fileID: 21498813622556604}
-  materialHashCode: 634556243
+  materialHashCode: -1204029960
   m_Version: 1.1.0
   m_SourceFontFileGUID: 
   m_SourceFontFile_EditorRef: {fileID: 0}
@@ -28,7 +28,7 @@ MonoBehaviour:
     m_LineHeight: 220.75
     m_AscentLine: 160.875
     m_CapLine: 111.25
-    m_MeanLine: 0
+    m_MeanLine: 88.25
     m_Baseline: 0
     m_DescentLine: -59.875
     m_SuperscriptOffset: 160.875
@@ -1809,6 +1809,8 @@ MonoBehaviour:
   m_AtlasTextures:
   - {fileID: 28720254279552780}
   m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 0
+  m_ClearDynamicDataOnBuild: 0
   m_UsedGlyphRects: []
   m_FreeGlyphRects: []
   m_fontInfo:
@@ -2725,6 +2727,7 @@ MonoBehaviour:
     kerningPairs: []
   m_FontFeatureTable:
     m_GlyphPairAdjustmentRecords: []
+  fallbackFontAssets: []
   m_FallbackFontAssetTable: []
   m_CreationSettings:
     sourceFontFileName: 
@@ -2800,7 +2803,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Rajdhani-SemiBold SDF Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: UNDERLAY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -2860,7 +2863,7 @@ Material:
     - _Reflectivity: 10
     - _ScaleRatioA: 0.90909094
     - _ScaleRatioB: 0.7386364
-    - _ScaleRatioC: 0.37286037
+    - _ScaleRatioC: 0.3693182
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -2872,7 +2875,7 @@ Material:
     - _StencilWriteMask: 255
     - _TextureHeight: 1024
     - _TextureWidth: 1024
-    - _UnderlayDilate: 0.981
+    - _UnderlayDilate: 1
     - _UnderlayOffsetX: -1
     - _UnderlayOffsetY: -1
     - _UnderlaySoftness: 0
@@ -2910,6 +2913,8 @@ Texture2D:
   m_TextureFormat: 1
   m_MipCount: 1
   m_IsReadable: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_IsPreProcessed: 0
   m_StreamingMipmaps: 0
   m_StreamingMipmapsPriority: 0
   m_AlphaIsTransparency: 0

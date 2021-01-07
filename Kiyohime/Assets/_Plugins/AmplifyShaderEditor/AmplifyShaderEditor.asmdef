@@ -2,8 +2,7 @@
     "name": "AmplifyShaderEditor",
     "references": [],
     "includePlatforms": [
-        "Editor",
-        "WindowsStandalone64"
+        "Editor"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": true,
