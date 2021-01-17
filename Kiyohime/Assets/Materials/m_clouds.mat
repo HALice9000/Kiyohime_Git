@@ -38,7 +38,7 @@ Material:
     - _NoiseScale1: 25
     - _NoiseScale2: 30
     - _NoiseStep: 0
-    - _OffsetSpeed: -2
+    - _OffsetSpeed: 5
     - _OpacityTweak: 0.73
     - _OpacityTweak1: 0.57
     - _RadialScale: 9.65
@@ -50,7 +50,7 @@ Material:
     - _StepScale: 0.2
     - _VertOffPower: 0.2
     - _VertexDisplacement: 1.33
-    - _Voro1AngleSpeed: 0.2
+    - _Voro1AngleSpeed: 0.1
     - _Voro1Scale: 5
     - _Voro2AngleSpeed: 0.2
     - _Voro2Scale: 10
