@@ -31,8 +31,11 @@ public class DeathWall : MonoBehaviour
 
     void Update()
     {
-        WallSystem();
-        MonstersSystem();
+        if (_moving == true)
+        {
+            WallSystem();
+            MonstersSystem();
+        }
 
         //_wall.position = Vector3.Lerp(_wall.position, checkp[indexed].position, _speed);
 
@@ -91,5 +94,13 @@ public class DeathWall : MonoBehaviour
     public void StopWall()
     {
         speed = 0;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            _moving = true;
+        }
     }
 }
