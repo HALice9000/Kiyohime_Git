@@ -850,7 +850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 338447715}
   m_HandleRect: {fileID: 338447714}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -7807,7 +7807,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 803233466}
   m_HandleRect: {fileID: 803233465}
   m_Direction: 2
-  m_Value: 0.99999976
+  m_Value: 1
   m_Size: 0.61
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -14474,7 +14474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901067251111702}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000109910965, y: 0, z: 0}
+  m_LocalPosition: {x: -0.0000023841858, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4557242340635332}
@@ -14489,7 +14489,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241663919164066}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000109910965, y: 0, z: 0}
+  m_LocalPosition: {x: -0.0000023841858, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 427651164}
