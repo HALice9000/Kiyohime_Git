@@ -29,7 +29,7 @@ public class DeathWall : MonoBehaviour
         actualCheck = checkp[indexed];
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (_moving == true)
         {
