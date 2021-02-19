@@ -11,8 +11,11 @@ public class s_dialogueSystem : MonoBehaviour
     [SerializeField] private TMP_Text _speakerName;
     [SerializeField] private TMP_Text _speakerText;
 
+    GameObject player;
+
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         sentences = new Queue<string>();
         names = new Queue<string>();
     }
@@ -56,5 +59,7 @@ public class s_dialogueSystem : MonoBehaviour
     private void EndDialogue()
     {
         transform.GetChild(0).GetChild(0).gameObject.SetActive(false);
+
+        player.GetComponent<Gamekit2D.PlayerCharacter>().inCinematic = false;
     }
 }

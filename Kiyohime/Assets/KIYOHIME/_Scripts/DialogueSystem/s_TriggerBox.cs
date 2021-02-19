@@ -32,6 +32,7 @@ public class s_TriggerBox : MonoBehaviour
         {
             ds.StartDialogue(dialogue);
             isTrigger = true;
+            collision.gameObject.GetComponent<Gamekit2D.PlayerCharacter>().inCinematic = true;
         }
     }
 
@@ -40,6 +41,7 @@ public class s_TriggerBox : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             isTrigger = false;
+            Destroy(gameObject);
         }
     }
 }

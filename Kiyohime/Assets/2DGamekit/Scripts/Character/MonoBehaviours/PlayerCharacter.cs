@@ -10,6 +10,7 @@ namespace Gamekit2D
     [RequireComponent(typeof(Animator))]
     public class PlayerCharacter : MonoBehaviour
     {
+        public bool inCinematic = false;
         static protected PlayerCharacter s_PlayerInstance;
         static public PlayerCharacter PlayerInstance { get { return s_PlayerInstance; } }
 
@@ -195,6 +196,24 @@ namespace Gamekit2D
                 else
                 {
                     Unpause();
+                }
+            }
+            if (inCinematic)
+            {
+                if (!m_InPause)
+                {
+                    PlayerInput.Instance.ReleaseControl(true);
+                    PlayerInput.Instance.Pause.GainControl();
+
+                    m_InPause = true;
+                }
+            }
+            else
+            {
+                if (m_InPause == true)
+                {
+                    PlayerInput.Instance.GainControl();
+                    m_InPause = false;
                 }
             }
         }
