@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 1018c9b58cfd62e44bf3c42c6582c440
+guid: 64ff5af26cc21ba4fa970a0278b6ac6e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -369160926673260229
-    second: UI_sprite_02_0
+      213: 314725746338704250
+    second: dialogue_box_0
   - first:
-      213: -2944038723439677361
-    second: UI_sprite_02_1
+      213: -2548255888982529342
+    second: dialogue_box_1
   - first:
-      213: -7629588890278452160
-    second: UI_sprite_02_2
+      213: 540234496075456319
+    second: dialogue_box_2
   - first:
-      213: 2820561371880858474
-    second: UI_sprite_02_3
+      213: -3032472741127057895
+    second: dialogue_box_3
   - first:
-      213: -910590759825002446
-    second: UI_sprite_02_4
-  - first:
-      213: -6037826447104800599
-    second: UI_sprite_02_5
+      213: -2053268614864224156
+    second: dialogue_box_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -63,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_sprite_02_0
+      name: dialogue_box_2
       rect:
         serializedVersion: 2
-        x: 160
-        y: 738
-        width: 125
-        height: 109
+        x: 668
+        y: 831
+        width: 281
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +116,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b31bfa4d71a70eaf0800000000000000
-      internalID: -369160926673260229
+      spriteID: f3f5df1796c4f7700800000000000000
+      internalID: 540234496075456319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_sprite_02_1
+      name: dialogue_box_4
       rect:
         serializedVersion: 2
-        x: 383
-        y: 738
-        width: 113
-        height: 125
+        x: 458
+        y: 184
+        width: 1084
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,92 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f403264116ca427d0800000000000000
-      internalID: -2944038723439677361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_sprite_02_2
-      rect:
-        serializedVersion: 2
-        x: 638
-        y: 738
-        width: 112
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 044afacd3514e1690800000000000000
-      internalID: -7629588890278452160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_sprite_02_3
-      rect:
-        serializedVersion: 2
-        x: 816
-        y: 753
-        width: 125
-        height: 110
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a63a52eaf95a42720800000000000000
-      internalID: 2820561371880858474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_sprite_02_4
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 373
-        width: 486
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 230b0e8478eec53f0800000000000000
-      internalID: -910590759825002446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_sprite_02_5
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 57
-        width: 269
-        height: 194
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a80cdc06d4553ca0800000000000000
-      internalID: -6037826447104800599
+      spriteID: 4604f8ec2135183e0800000000000000
+      internalID: -2053268614864224156
       vertices: []
       indices: 
       edges: []

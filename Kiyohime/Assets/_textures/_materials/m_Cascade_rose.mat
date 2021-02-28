@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: m_Cascade
+  m_Name: m_Cascade_rose
   m_Shader: {fileID: 4800000, guid: 17fb7265e37252548a849de71a3c0fbd, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2501
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -54,7 +54,7 @@ Material:
     - _FRESNEL: {r: 1, g: 100, b: 10, a: 0}
     - _Fall2Tiling: {r: 7.16, g: 1.63, b: 0, a: 0}
     - _FallBorder: {r: 50, g: 1.1, b: 0, a: 0}
-    - _LittleWater: {r: 0, g: 0.41509432, b: 0.41509432, a: 1}
+    - _LittleWater: {r: 0.43137258, g: 0.36862746, b: 0.4901961, a: 1}
     - _LittleWater1: {r: 0.57735026, g: 0.57735026, b: 0.57735026, a: 1}
     - _LittleWave: {r: 0.1, g: 0.08, b: 0, a: 0}
     - _MinMinMaxMax: {r: 100, g: 50, b: 107.7, a: 100}
@@ -64,4 +64,4 @@ Material:
     - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
     - _TextureScaling: {r: 1, g: 0.28, b: 0, a: 0}
     - _WaterBorder: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
-    - _WaterFallColor: {r: 0.29803923, g: 0.6901961, b: 0.43529415, a: 1}
+    - _WaterFallColor: {r: 0.4156863, g: 0.42352945, b: 0.6313726, a: 1}

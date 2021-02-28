@@ -40,6 +40,9 @@ TagManager:
   - PlayerDrop
   - Platform
   m_SortingLayers:
+  - name: UI
+    uniqueID: 2314431269
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
