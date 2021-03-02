@@ -55,6 +55,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NoiseVariationLine:
+        m_Texture: {fileID: 2800000, guid: b6aade3184b6cf0408b479908ac52f8a, type: 3}
+        m_Scale: {x: 7.11, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -71,6 +75,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: dd2fd2df93418444c8e280f1d34deeb5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: b6aade3184b6cf0408b479908ac52f8a, type: 3}
+        m_Scale: {x: 4.04, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -79,17 +87,24 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _Distortion: 0.47
     - _DistortionStrength: 1
     - _DstBlend: 0
+    - _Float0: 5.1
+    - _Float1: 0.5
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Max: 1.2
     - _Metallic: 0
+    - _Min: -0.61
     - _Mode: 0
     - _Noise2Scale: 17.95
     - _NoiseScale: 8.27
     - _NormalPower: 0.4
     - _OcclusionStrength: 1
+    - _OffsetLine: -0.37
+    - _OffsetShape: 0.38
     - _Parallax: 0.02
     - _Power: 1.23
     - _SmoothnessTextureChannel: 0
@@ -101,19 +116,25 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 0}
+    - _Color1: {r: 0, g: 0, b: 0, a: 0}
+    - _DistoLineTiling: {r: 15.07, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Noise2Color: {r: 0.3915094, g: 1, b: 0.50627613, a: 1}
     - _Noise2Speed: {r: -1.01, g: 0, b: 0, a: 0}
     - _NoiseColor: {r: 0, g: 0.3679245, b: 0.17543718, a: 1}
     - _NoiseColor1: {r: 0, g: 0.3679245, b: 0.1754372, a: 1}
     - _NoiseSpeed: {r: -0.1, g: 0, b: 0, a: 0}
+    - _NoiseTiling: {r: 22.3, g: 1, b: 0, a: 0}
     - _NormDir: {r: 0, g: 0, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _OffsetUV: {r: 0.35, g: 0.58, b: 0, a: 0}
     - _Scale: {r: 1, g: 1, b: 0, a: 0}
     - _SmoothStep: {r: 0.13, g: 0.83, b: 0, a: 0}
     - _TextColor: {r: 0, g: 0.02674794, b: 0.023775948, a: 1}
     - _Tilling: {r: 1, g: 1, b: 0, a: 0}
-    - _Vector0: {r: -0.22, g: 0, b: 0, a: 0}
+    - _TillingLinewave: {r: 0.07, g: 1, b: 0, a: 0}
+    - _Vector0: {r: -0.1, g: 1, b: 0, a: 0}
+    - _Vector1: {r: 0.35, g: 0.32, b: 0, a: 0}
     - _offset: {r: 0, g: 0.05, b: 0, a: 0}
     - _tiling: {r: 10, g: 1, b: 0, a: 0}

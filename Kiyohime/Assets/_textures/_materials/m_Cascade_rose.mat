@@ -43,7 +43,7 @@ Material:
     - _VoroScale: 3
     - _WarterFallSpeed: 0.1
     - _WarterFallSpeed1: 2
-    - _WarterFallSpeed2: 0.5
+    - _WarterFallSpeed2: 0.3
     - _WarterFallSpeed3: 0.25
     - _WaveOndulatingSpeed: 2
     - __dirty: 0
