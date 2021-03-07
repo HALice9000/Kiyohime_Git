@@ -5,7 +5,6 @@ using UnityEngine;
 [System.Serializable]
 public class s_dialogue
 {
-    public Sprite[] charaPics;
     public string[] names;
 
     [TextArea(5, 10)]
