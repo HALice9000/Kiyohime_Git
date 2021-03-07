@@ -8,10 +8,15 @@ public class s_dialogueSystem : MonoBehaviour
 {
     public Queue<string> sentences;
     public Queue<string> names;
+    [SerializeField] private SpriteRenderer _spriteRend;
     [SerializeField] private TMP_Text _speakerName;
     [SerializeField] private TMP_Text _speakerText;
 
     GameObject player;
+
+    int picNum = 0;
+
+    s_dialogue d = null;
 
     void Start()
     {
@@ -26,6 +31,11 @@ public class s_dialogueSystem : MonoBehaviour
 
         sentences.Clear();
         names.Clear();
+        d = null;
+
+        picNum = 0;
+        d = dialogue;
+        _spriteRend.sprite = dialogue.charaPics[picNum];
 
         //_speakerName.text = dialogue.name[0];
 
@@ -43,7 +53,9 @@ public class s_dialogueSystem : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-        if(sentences.Count == 0)
+        picNum++;
+        _spriteRend.sprite = d.charaPics[picNum];
+        if (sentences.Count == 0)
         {
             EndDialogue();
             return;
