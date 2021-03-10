@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Users\GS-Bachelor-Master\Documents\GitHub\Kiyohime_Git\Kiyohime\Kiyohime_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Users\GS-Bachelor-Master\Documents\GitHub\Kiyohime_Git\Kiyohime\Kiyohime_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Users\GS-Bachelor-Master\Documents\GitHub\Kiyohime_Git\Kiyohime\Kiyohime_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Users\GS-Bachelor-Master\Documents\GitHub\Kiyohime_Git\Kiyohime\Kiyohime_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3568910352">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="914128518" Name="AnotherReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AnotherReverb"/>
+				<AuxBus Id="1591283508" Name="DefaultReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DefaultReverb"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="2858921253" Language="SFX" Hash="2845009580">
+			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
+			<ShortName>AllInOne</ShortName>
+			<Path>AllInOne.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="914128518" Name="AnotherReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AnotherReverb"/>
+				<AuxBus Id="1591283508" Name="DefaultReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DefaultReverb"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

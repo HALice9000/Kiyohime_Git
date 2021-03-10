@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5dfa5c483458054d9297159d9097ab3, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: b46e1a33ff6c3e4499175c437e6110ef
+    GuidInternal: 
+    m_lastTime: -8585862146338109233
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 95f205eb587a174f8ceafe8e16481a36
+    GuidInternal: 
+    m_lastTime: -8585862146344756535
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  - PhysicalPath: Master-Mixer Hierarchy\Ennemies.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Master Audio Bus
+      ObjectType: 2
+    - ElementName: World
+      ObjectType: 12
+    - ElementName: Ennemies
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\World\Ennemies
+    guid: 5242e09982e97944ba8700f90b8f4fac
+    GuidInternal: 
+    m_lastTime: -8585902317755006673
+    List: []
+  - PhysicalPath: Master-Mixer Hierarchy\Menu.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Master Audio Bus
+      ObjectType: 2
+    - ElementName: Menu
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\Menu
+    guid: 237aa5e2e364b14d852fc6ee8a02d074
+    GuidInternal: 
+    m_lastTime: -8585902317754986726
+    List: []
+  - PhysicalPath: Master-Mixer Hierarchy\Music.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Master Audio Bus
+      ObjectType: 2
+    - ElementName: Music
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\Music
+    guid: eac210b9cfcd8d42a08c34cc746b25ee
+    GuidInternal: 
+    m_lastTime: -8585902317755036519
+    List: []
+  - PhysicalPath: Master-Mixer Hierarchy\Player.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Master Audio Bus
+      ObjectType: 2
+    - ElementName: Player
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\Player
+    guid: 4373a3dc63fa0d4db575478e30d4da8b
+    GuidInternal: 
+    m_lastTime: -8585902317755045584
+    List:
+    - name: Player
+      guid: f44f8b9bb2821341b30913a1af82dad6
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Player\Player
+  - PhysicalPath: Master-Mixer Hierarchy\World.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Master Audio Bus
+      ObjectType: 2
+    - ElementName: World
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\World
+    guid: eec40b1c15d74f4aa1411574614cd634
+    GuidInternal: 
+    m_lastTime: -8585902317754966778
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 6204c732709fc74a8f0ef19302a88d79
+    GuidInternal: 
+    m_lastTime: -8585862146341131163
+    List: []
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 5399cef305d5594f8719f01c10affb48
+    GuidInternal: 
+    m_lastTime: -8585862126009189700
+    List:
+    - name: FootStep
+      guid: 6184d555400750408d167dcda2ba4299
+      id: 1866025847
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FootStep
+        ObjectType: 3
+      Path: Default Work Unit\FootStep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Ennemies.wwu
+    PathAndIcons:
+    - ElementName: Ennemies
+      ObjectType: 12
+    ParentPath: Ennemies
+    guid: 692aa69ad7d75645822eee1b24ff139a
+    GuidInternal: 
+    m_lastTime: -8585902320795894911
+    List: []
+  - PhysicalPath: Events\Menu.wwu
+    PathAndIcons:
+    - ElementName: Menu
+      ObjectType: 12
+    ParentPath: Menu
+    guid: ab3b3b56beb32f4d97eaf2583c7b3cec
+    GuidInternal: 
+    m_lastTime: -8585902317755016646
+    List: []
+  - PhysicalPath: Events\Music.wwu
+    PathAndIcons:
+    - ElementName: Music
+      ObjectType: 12
+    ParentPath: Music
+    guid: db9f5917f1340f44bf68247a2dbdda5b
+    GuidInternal: 
+    m_lastTime: -8585902320239268575
+    List: []
+  - PhysicalPath: Events\Player.wwu
+    PathAndIcons:
+    - ElementName: Player
+      ObjectType: 12
+    ParentPath: Player
+    guid: 33312c8227bf0548a6b192ec9dcad7cf
+    GuidInternal: 
+    m_lastTime: -8585902320239238686
+    List:
+    - name: Player_Footstep
+      guid: 59832c478f2e804b8130d6c732255791
+      id: 2453392179
+      PathAndIcons:
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_Footstep
+        ObjectType: 3
+      Path: Player\Player_Footstep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Jump
+      guid: 742d81bf10cc6340a3b14bbbdaf44e80
+      id: 1305133589
+      PathAndIcons:
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_Jump
+        ObjectType: 3
+      Path: Player\Player_Jump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Land
+      guid: 4b8d2fe28c943345ad5da609630ee7c5
+      id: 3629196698
+      PathAndIcons:
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_Land
+        ObjectType: 3
+      Path: Player\Player_Land
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\World.wwu
+    PathAndIcons:
+    - ElementName: World
+      ObjectType: 12
+    ParentPath: World
+    guid: b4eb7543aeacc84fa74a4ff69c791300
+    GuidInternal: 
+    m_lastTime: -8585902320795914858
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 8baee6312b73804f9a4e63441f77d0da
+    GuidInternal: 
+    m_lastTime: -8585862146339056702
+    List: []
+  - PhysicalPath: Game Parameters\Menu.wwu
+    PathAndIcons:
+    - ElementName: Menu
+      ObjectType: 12
+    ParentPath: Menu
+    guid: a5ffecbf75776240bea01a3a9f784947
+    GuidInternal: 
+    m_lastTime: -8585902314881803098
+    List:
+    - name: Volume_Music
+      guid: a16710046b58224f8310a5927c83a05f
+      id: 3891337659
+      PathAndIcons:
+      - ElementName: Menu
+        ObjectType: 12
+      - ElementName: Volume_Music
+        ObjectType: 13
+      Path: Menu\Volume_Music
+    - name: Volume_SFX
+      guid: 68ae6ec886c36a489aebead5f908425d
+      id: 3673881719
+      PathAndIcons:
+      - ElementName: Menu
+        ObjectType: 12
+      - ElementName: Volume_SFX
+        ObjectType: 13
+      Path: Menu\Volume_SFX
+    - name: Volume_Voice
+      guid: ee083e334183674499a234e0e520b9e5
+      id: 3676256460
+      PathAndIcons:
+      - ElementName: Menu
+        ObjectType: 12
+      - ElementName: Volume_Voice
+        ObjectType: 13
+      Path: Menu\Volume_Voice
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 8215bf1bf5164a4c9e8c77ea023ff31f
+    GuidInternal: 
+    m_lastTime: -8585862146342826629
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 2e33c6437a91944cbcdcef7fe6c41acb
+    GuidInternal: 
+    m_lastTime: -8585862146343195631
+    List: []
+  - PhysicalPath: Switches\Player.wwu
+    PathAndIcons:
+    - ElementName: Player
+      ObjectType: 12
+    ParentPath: Player
+    guid: 7c9a8bfd8c5a60428738c9e796412b47
+    GuidInternal: 
+    m_lastTime: -8585902314881852961
+    List:
+    - name: Player_FootSwitch
+      guid: 78e5dbd77e4ac449a4b6f5a55abcd552
+      id: 2557185337
+      PathAndIcons:
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_FootSwitch
+        ObjectType: 11
+      Path: Player\Player_FootSwitch
+      values:
+      - name: Grass
+        guid: a9af285f08b04f4f971ce5e2f1cafdd8
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Grass
+          ObjectType: 10
+      - name: Rock
+        guid: c3d4ab8585b08b458073c1b862317fdb
+        id: 2144363834
+        PathAndIcons:
+        - ElementName: Rock
+          ObjectType: 10
+      - name: Water
+        guid: a90e64f24db90744944de11c95c40f7b
+        id: 2654748154
+        PathAndIcons:
+        - ElementName: Water
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 29469877e0d2e24aa149b055329bb118
+    GuidInternal: 
+    m_lastTime: -8585862146340802034
+    List: []
+  ExpandedItems: []
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
